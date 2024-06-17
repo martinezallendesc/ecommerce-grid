@@ -1,0 +1,289 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+
+
+    .contenedor-cabecera{
+        grid-area: contenedor-cabecera;
+    }
+
+
+    
+    .contenedor-menu {
+        grid-area: contenedor-menu;
+        padding: 30px;
+
+    }
+
+    
+    .contenedor-productos {
+        grid-area: contenedor-productos;
+    }
+    
+
+
+    .contenedor-footer {
+        grid-area: contenedor-footer;
+    }
+    
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: 2fr 8fr ;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+    "contenedor-cabecera contenedor-cabecera"
+    "contenedor-menu contenedor-productos"
+    "contenedor-footer contenedor-footer";
+    height: 100vh;
+    ;
+}
+
+/*Head*/
+
+.contenido-cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.barra-menu {
+    display: flex;
+    list-style: none;
+    gap:30px;
+    padding-right: 5%;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    }
+
+
+
+
+
+/*Menú*/
+
+.contenido-menu {
+    justify-items: center;
+    padding: 5px;
+    align-items: center;
+}
+
+
+
+.categories {
+    color: #F9B433;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    }
+    
+    
+ .category-name {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+margin-bottom:6px;
+    }
+    
+.category-name  a {
+            font-family: "Roboto", sans-serif;
+            font-size: 1rem;
+            color: #000000;
+            padding: 0;
+            margin:0;
+        }
+    
+.category-name p {
+            font-family: "Roboto", sans-serif;
+            font-size: 1rem;
+            color: #F9B433;
+            padding-left: 6px;
+            padding-top:0;
+            padding-bottom:0;
+            margin:0;
+        }
+
+.call-to-action {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #2A6EB6;
+    padding-top:0;
+    padding-bottom:0;
+    margin:0;
+}
+
+.call-to-action i{
+    color: #F9B433;
+}
+
+
+
+
+/*Productos*/ 
+
+article .card-1 {
+   grid-area: card-1;
+}
+
+article .card-2 {
+    grid-area: card-2;
+ }
+
+ article .card-3 {
+    grid-area: card-3;
+ }
+
+ article .card-4 {
+    grid-area: card-4;
+ }
+ article .card-5 {
+    grid-area: card-5;
+}
+
+article .card-6 {
+    grid-area: card-6;
+}
+
+.contenido-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "card-1 card-2 card-3 card-4"
+    "card-5 card-6";
+    gap:20px;
+    padding: 0px 20px 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+/*Card*/
+
+.card {
+    background-color: #ffffff;
+    display:block;
+    border-radius: 5px;
+    box-shadow: 0 8px 8px -6px #c6c6c6;
+
+}
+
+
+.meta-productos {
+    padding: 20px;
+    padding-bottom: 25px;
+    margin:0;
+    background-color: #f9f9f9;
+    border: 1px #c9c9c9;
+}
+
+.meta-productos h4 {
+    color:#000000;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding:0;
+    margin:0;
+
+}
+
+.meta-productos p {
+    font-family: "Roboto", sans-serif;
+    color:#F9B433;
+    font-size: 0.75rem;
+    text-align: center;
+    font-style: italic;
+    padding:0;
+    margin:0;
+
+
+}
+
+.meta-productos h5 {
+    font-family: "Roboto", sans-serif;
+    color: #2A6EB6;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding:0.5rem;
+    margin:0;
+    text-align: center;
+
+
+}
+
+.foto-producto {
+    width: 100%;
+    padding:0;
+    margin:0;
+    border-radius: 5px;
+    border: 0.75px #c6c6c6;
+
+}
+
+button {
+    background-color: #2A6EB6;
+    border:0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenido-footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #2A6EB6;
+}
+
+
+
+
+.menu-footer {
+    display: flex;
+list-style: none;
+gap:30px;
+padding-right: 5%;
+align-items: center;
+color: #ffffff ;
+font-family: "Roboto", sans-serif;
+}
+
+h3 {
+color: #000000;
+font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+    
+
