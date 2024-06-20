@@ -78,13 +78,14 @@ body {
 
 
 
-/*Menú*/
+/*Menú (corrección, con flex)*/
+
 
 .contenido-menu {
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
     padding: 5px;
-    align-items: center;
-
 }
 
 
@@ -189,14 +190,14 @@ article .card-6 {
 
 
 
-/*Card*/
+/*Card (corrección)*/
 
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
-    display:block;
     border-radius: 5px;
     box-shadow: 0 8px 8px -6px #c6c6c6;
-
 }
 
 
