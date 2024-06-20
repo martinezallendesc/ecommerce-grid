@@ -3,8 +3,6 @@ body {
     padding:0;
 }
 
-
-
     .contenedor-cabecera{
         grid-area: contenedor-cabecera;
     }
@@ -86,6 +84,7 @@ body {
     justify-items: center;
     padding: 5px;
     align-items: center;
+
 }
 
 
@@ -267,16 +266,7 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+/*pie de pagina*/
 
 .contenido-footer {
     display: flex;
@@ -284,8 +274,6 @@ button {
     padding: 5px;
     background-color: #2A6EB6;
 }
-
-
 
 
 .menu-footer {
@@ -298,14 +286,12 @@ color: #ffffff ;
 font-family: "Roboto", sans-serif;
 }
 
-h3 {
-color: #000000;
+.menu-footer li {
+color: #ffffff;
 font-family: "Roboto", sans-serif;
+text-decoration: none;}
+
+.menu-footer li:hover {
+    color: #F9B433;
 }
-
-
-
-
-
-    
 
